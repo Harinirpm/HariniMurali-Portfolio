@@ -217,12 +217,12 @@ export default function HeroSection({ onOpenResume }: HeroSectionProps) {
       </div>
 
       {/* Bounce Anchor footer indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center justify-center space-y-1 pointer-events-none">
+      {/* <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center justify-center space-y-1 pointer-events-none">
         <span className="text-[9px] font-mono text-stone-400 dark:text-stone-600 uppercase tracking-widest font-extrabold animate-pulse">
           AUDIT_FLOW_SCROLL
         </span>
         <ArrowDown className="w-4 h-4 text-stone-400 dark:text-stone-600 animate-bounce" />
-      </div>
+      </div> */}
     </section>
   );
 }

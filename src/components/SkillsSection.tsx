@@ -39,16 +39,16 @@ export default function SkillsSection() {
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         {/* Title Elements */}
         <div className="text-center mb-16 space-y-2">
-          <div className="inline-flex items-center space-x-2 px-3 py-1.5 rounded-full bg-indigo-500/10 text-indigo-600 dark:text-indigo-400 text-xs font-semibold tracking-wider uppercase font-mono">
+          {/* <div className="inline-flex items-center space-x-2 px-3 py-1.5 rounded-full bg-indigo-500/10 text-indigo-600 dark:text-indigo-400 text-xs font-semibold tracking-wider uppercase font-mono">
             <ShieldCheck className="w-3.5 h-3.5" />
             <span>Technical arsenal</span>
-          </div>
+          </div> */}
           <h2 className="text-3xl sm:text-4xl font-bold font-sans tracking-tight text-stone-900 dark:text-white">
             Skills & Expertise
           </h2>
-          <p className="text-sm text-stone-500 max-w-lg mx-auto">
+          {/* <p className="text-sm text-stone-500 max-w-lg mx-auto">
             A comprehensive mapping of my programming capabilities, backend architecture proficiency, and design frameworks.
-          </p>
+          </p> */}
           <div className="h-1 w-20 bg-indigo-500 rounded-full mx-auto mt-2" />
         </div>
 
